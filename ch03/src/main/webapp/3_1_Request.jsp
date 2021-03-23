@@ -85,5 +85,15 @@
 		</table>
 	</form>
 	
+	<h3>Client information</h3>
+	<p>
+		Header: <%=request.getHeader("User-Agent") %><br/>
+		Protocol: <%=request.getProtocol() %><br/>
+		Server Name: <%=request.getServerName() %><br/>
+		URL: <%=request.getRequestURL() %><br/>
+		URI: <%=request.getRequestURI() %><br/>
+		User IP: <%=request.getRemoteAddr() %><br/>
+	</p>
+	
 </body>
 </html>
