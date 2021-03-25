@@ -13,7 +13,7 @@
 	 -->
 	 
 	 <h3>1. JSP JDBC Insert</h3>
-	 <form action ="#" method="get">
+	 <form action ="./proc/insertProc.jsp" method="get">
 	 	<table border="1">
 		 	<tr>
 		 		<td>ID</td>
