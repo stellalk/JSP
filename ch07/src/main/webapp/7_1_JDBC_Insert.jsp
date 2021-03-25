@@ -13,6 +13,9 @@
 	 -->
 	 
 	 <h3>1. JSP JDBC Insert</h3>
+	 
+	 <a href="./7_2_JDBC_Select.jsp">List</a>
+	 
 	 <form action ="./proc/insertProc.jsp" method="get">
 	 	<table border="1">
 		 	<tr>
