@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>글목록</title>
+    <title>List</title>
     <link rel="stylesheet" href="./css/style.css">    
 </head>
 <body>

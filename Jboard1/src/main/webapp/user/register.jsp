@@ -3,84 +3,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>회원가입</title>
+    <title>Register</title>
     <link rel="stylesheet" href="../css/style.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="/Jboard1/js/CheckUser.js"></script>
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+	<script src="/Jboard1/js/zipcode.js"></script>
+	<script src="/Jboard1/js/validation.js"></script>
 </head>
 <body>
     <div id="wrapper">
         <section id="user" class="register">
-            <form action="#" method="POST">
+            <form action="/Jboard1/user/proc/register.jsp" method="POST">
                 <table border="1">
-                    <caption>사이트 이용정보 입력</caption>
+                    <caption>Create your account</caption>
                     <tr>
-                        <td>아이디</td>
+                        <td>ID</td>
                         <td>
-                            <input type="text" name="uid" placeholder="아이디 입력"/>
+                            <input type="text" name="uid" placeholder="User ID"/>
                             <span class="resultId"></span>
                         </td>
                     </tr>
                     <tr>
-                        <td>비밀번호</td>
+                        <td>Password</td>
                         <td>
-                            <input type="password" name="pass1" placeholder="비밀번호 입력"/>                            
+                            <input type="password" name="pass1" placeholder="Password"/>                            
                         </td>
                     </tr>
                     <tr>
-                        <td>비밀번호 확인</td>
+                        <td>Confirm</td>
                         <td>
-                            <input type="password" name="pass2" placeholder="비밀번호 확인 입력"/>
+                            <input type="password" name="pass2" placeholder="Confirm password"/>
                             <span class="resultPass"></span>
                         </td>
                     </tr>
                 </table>
                 <table border="1">
-                    <caption>개인정보 입력</caption>
+                    <caption>Enter your information</caption>
                     <tr>
-                        <td>이름</td>
+                        <td>Name</td>
                         <td>
-                            <input type="text" name="name" placeholder="이름 입력"/>                            
+                            <input type="text" name="name" placeholder="Name"/>   
+                            <span class="resultName"></span>                          
                         </td>
                     </tr>
                     <tr>
-                        <td>별명</td>
+                        <td>Nickname</td>
                         <td>
-                            <p>공백없이 한글, 영문, 숫자만 입력가능</p>
-                            <input type="text" name="nick" placeholder="별명 입력"/>
+                            <p>You can use letters & numbers</p>
+                            <input type="text" name="nick" placeholder="Nickname"/>
                             <span class="resultNick"></span>                            
                         </td>
                     </tr>
                     <tr>
                         <td>E-Mail</td>
                         <td>
-                            <input type="email" name="email" placeholder="이메일 입력"/>
+                            <input type="email" name="email" placeholder="Email"/>
                         </td>
                     </tr>
                     <tr>
-                        <td>휴대폰</td>
+                        <td>Phone</td>
                         <td>
-                            <input type="text" name="hp" placeholder="- 포함 13자리 입력" minlength="13" maxlength="13" />
+                            <input type="text" name="hp" placeholder="Enter as 000-0000-0000" minlength="13" maxlength="13" />
                         </td>
                     </tr>
                     <tr>
-                        <td>주소</td>
+                        <td>Address</td>
                         <td>
                             <div>
-                                <input type="text" name="zip" placeholder="우편번호" readonly/>
-                                <button class="btnZip">주소검색</button>
+                                <input type="text" id="zip" name="zip" placeholder="zip code" readonly/>
+                                <button type="button" class="btnZip" onclick="zipcode()">Search</button>
                             </div>                            
                             <div>
-                                <input type="text" name="addr1" placeholder="주소를 검색하세요." readonly/>
+                                <input type="text" id="addr1" name="addr1" placeholder="Address Line 1" readonly/>
                             </div>
                             <div>
-                                <input type="text" name="addr2" placeholder="상세주소를 입력하세요."/>
+                                <input type="text" id="addr2" name="addr2" placeholder="Address Line 2"/>
                             </div>
                         </td>
                     </tr>
                 </table>
 
                 <div>
-                    <a href="./login.html" class="btnCancel">취소</a>
-                    <input type="submit"   class="btnJoin" value="회원가입"/>
+                    <a href="/Jboard1/user/login.jsp" class="btnCancel">Cancel</a>
+                    <input type="submit"   class="btnJoin" value="Sign Up"/>
                 </div>
 
             </form>

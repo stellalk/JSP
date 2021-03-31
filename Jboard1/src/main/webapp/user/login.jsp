@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>로그인</title>
+    <title>Login</title>
     <link rel="stylesheet" href="../css/style.css"/>
 </head>
 <body>
@@ -12,21 +12,21 @@
             <form action="../list.html">
                 <table border="0">
                     <tr>
-                        <td><img src="../img/login_ico_id.png" alt="아이디"/></td>
-                        <td><input type="text" name="uid" placeholder="아이디를 입력" /></td>
+                        <td><img src="../img/login_ico_id.png" alt="id"/></td>
+                        <td><input type="text" name="uid" placeholder="User ID" /></td>
                     </tr>
                     <tr>
-                        <td><img src="../img/login_ico_pw.png" alt="비밀번호"/></td>
-                        <td><input type="password" name="pass" placeholder="비밀번호 입력" /></td>
+                        <td><img src="../img/login_ico_pw.png" alt="password"/></td>
+                        <td><input type="password" name="pass" placeholder="Password" /></td>
                     </tr>
                 </table>
-                <input type="submit" class="btnLogin" value="로그인"/>
+                <input type="submit" class="btnLogin" value="Sign in"/>
             </form>
 
             <div class="info">
-                <h3>회원로그인 안내</h3>
+                <h3>Registration info</h3>
                 <p>
-                    아직 회원이 아니시면 회원으로 가입하세요.
+                    Sign up if you don't already have an account.
                 </p>
                 <a href="/JBoard1/user/terms.jsp">Register</a>
             </div>

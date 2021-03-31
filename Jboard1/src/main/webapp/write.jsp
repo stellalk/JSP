@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>글쓰기</title>
+    <title>Write</title>
     <link rel="stylesheet" href="./css/style.css"/>
 </head>
 <body>
