@@ -4,33 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Write</title>
-    <link rel="stylesheet" href="./css/style.css"/>
+    <link rel="stylesheet" href="/Jboard1/css/style.css"/>
 </head>
 <body>
     <div id="wrapper">
         <section id="board" class="write">
-            <h3>글쓰기</h3>
+            <h3>Board</h3>
             <article>
-                <form action="#">
+                <form action="/Jboard1/proc/write.jsp" method="post">
                     <table>
                         <tr>
-                            <td>제목</td>
+                            <td>Title</td>
                             <td><input type="text" name="title" placeholder="제목을 입력하세요."/></td>
                         </tr>
                         <tr>
-                            <td>내용</td>
+                            <td>Context</td>
                             <td>
                                 <textarea name="content"></textarea>                                
                             </td>
                         </tr>
                         <tr>
-                            <td>첨부</td>
+                            <td>Attach</td>
                             <td><input type="file" name="file"/></td>
                         </tr>
                     </table>
                     <div>
-                        <a href="./list.html" class="btnCancel">취소</a>
-                        <input type="submit"  class="btnWrite" value="작성완료">
+                        <a href="/Jboard1/list.jsp" class="btnCancel">Cancel</a>
+                        <input type="submit"  class="btnWrite" value="Submit">
                     </div>
                 </form>
             </article>

@@ -19,7 +19,7 @@
 	//1.load JDBC driver
 	Class.forName("com.mysql.jdbc.Driver");
 		
-	//2.access to the dadtabase
+	//2.access to the database
 	Connection conn = DriverManager.getConnection(host,user,pass);
 		
 	//3.make SQL object

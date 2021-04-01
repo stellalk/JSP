@@ -1,3 +1,4 @@
+<%@page import="kr.co.jboard1.config.DBConfig"%>
 <%@page import="com.google.gson.JsonObject"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>
@@ -11,17 +12,9 @@
 	// retrieving
 	String hp = request.getParameter("hp");
 
-	//database
-	String host = "jdbc:mysql://192.168.10.114:3306/kye";
-	String user = "kye";
-	String pass = "1234";
+	//database 1,2
+	Connection conn = DBConfig.getInstance().getConnection();
 	
-	//1.load JDBC driver
-	Class.forName("com.mysql.jdbc.Driver");
-		
-	//2.access to the dadtabase
-	Connection conn = DriverManager.getConnection(host,user,pass);
-		
 	//3.make SQL object
 	Statement stmt = conn.createStatement();
 	
