@@ -43,7 +43,7 @@
                 <p>
                     Sign up if you don't already have an account.
                 </p>
-                <a href="/JBoard1/user/terms.jsp">Register</a>
+                <a href="/Jboard1/user/terms.jsp">Register</a>
             </div>
 
         </section>

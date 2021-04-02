@@ -22,7 +22,7 @@
 	//receive
 	String pg = request.getParameter("pg");
 	
-	//page number
+	//page
 	ArticleDao dao = ArticleDao.getInstance();
 	
 	int total 		= dao.selectCountArticle();
@@ -53,16 +53,16 @@
                 </p>
                 <table border="0">
                     <tr>
-                        <th>No.</th>
+                        <th>No</th>
                         <th>Title</th>
-                        <th>Writer</th>
+                        <th>Name</th>
                         <th>Date</th>
-                        <th>View</th>
+                        <th>Hit</th>
                     </tr>
                     <% for(ArticleBean ab : articles){ %>
                     	<tr>
                         	<td><%=pageStartNum-- %></td>
-                        	<td><a href="./view.html"><%=ab.getTitle() %></a>&nbsp;<%=ab.getComment() %></td>
+                        	<td><a href="/Jboard1/view.jsp?seq=<%=ab.getSeq()%>"><%=ab.getTitle() %></a>&nbsp;<%=ab.getComment() %></td>
                         	<td><%=ab.getNick() %></td>
                         	<td><%=ab.getRdate().substring(2, 10) %></td>
                         	<td><%=ab.getHit() %></td>

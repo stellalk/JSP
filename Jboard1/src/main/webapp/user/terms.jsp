@@ -1,3 +1,4 @@
+<%@page import="kr.co.jboard1.dao.UserDao"%>
 <%@page import="kr.co.jboard1.bean.TermsBean"%>
 <%@page import="kr.co.jboard1.config.DBConfig"%>
 <%@page import="com.google.gson.JsonObject"%>
@@ -7,28 +8,7 @@
 <%@page import="java.sql.Connection"%>
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
 <%
-	//1,2 
-	Connection conn = DBConfig.getInstance().getConnection();
-		
-	//3.make SQL object
-	Statement stmt = conn.createStatement();
-	
-	//4. sql
-	String sql = "SELECT * FROM `JBOARD_TERMS`;";
-	ResultSet rs = stmt.executeQuery(sql);
-	
-	//5.process the result(if SELECT) TermsBean
-	TermsBean tb = new TermsBean();
-
-	if(rs.next()){
-		tb.setTerms(rs.getString(1));
-		tb.setPrivacy(rs.getString(2));
-	}
-
-	//6.exit database
-	rs.close();
-	stmt.close();
-	conn.close();
+	TermsBean tb = UserDao.getInstance().selectTerms();
 %>
 <!DOCTYPE html>
 <html lang="en">

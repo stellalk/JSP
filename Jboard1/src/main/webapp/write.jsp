@@ -11,11 +11,11 @@
         <section id="board" class="write">
             <h3>Board</h3>
             <article>
-                <form action="/Jboard1/proc/write.jsp" method="post">
+                <form action="/Jboard1/proc/write.jsp" method="post" enctype="multipart/form-data">
                     <table>
                         <tr>
                             <td>Title</td>
-                            <td><input type="text" name="title" placeholder="제목을 입력하세요."/></td>
+                            <td><input type="text" name="title" placeholder="Title"/></td>
                         </tr>
                         <tr>
                             <td>Context</td>
