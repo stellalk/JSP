@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>약관</title>
+    <title>Terms</title>
     <link rel="stylesheet" href="/Jboard2/css/style.css"/>    
 </head>
 <body>
