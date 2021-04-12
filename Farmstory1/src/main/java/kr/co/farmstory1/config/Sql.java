@@ -18,6 +18,9 @@ public class Sql {
 											   + "`rdate`=NOW();";
 	
 	//ArticleDao
+	public static final String SELECT_ARTICLE_LATEST = "(SELECT * FROM `JBOARD_ARTICLE` WHERE `cate`='grow'   ORDER BY `seq` DESC LIMIT 5) UNION "
+													+ "(SELECT * FROM `JBOARD_ARTICLE` WHERE `cate`='school' ORDER BY `seq` DESC LIMIT 5) UNION "
+													+ "(SELECT * FROM `JBOARD_ARTICLE` WHERE `cate`='story'  ORDER BY `seq` DESC LIMIT 5);";     
 	public static final String SELECT_COUNT_ARTICLE = "SELECT COUNT(*) FROM `JBOARD_ARTICLE` WHERE `parent`=0;";
 	public static final String SELECT_MAX_SEQ = "SELECT MAX(`seq`) FROM `JBOARD_ARTICLE` WHERE `parent`=0;";
 	

@@ -53,6 +53,4 @@
 		//redirect to login
 		response.sendRedirect("/Farmstory1/user/login.jsp?result=0");
 	}
-
-	
 %>
