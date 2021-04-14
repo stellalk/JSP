@@ -3,34 +3,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>글수정</title>
-    <link rel="stylesheet" href="./css/style.css"/>
+    <title>Modify</title>
+    <link rel="stylesheet" href="/Jboard2/css/style.css"/>
 </head>
 <body>
     <div id="wrapper">
         <section id="board" class="modify">
-            <h3>글수정</h3>
+            <h3>Modify</h3>
             <article>
                 <form action="#">
                     <table>
                         <tr>
-                            <td>제목</td>
-                            <td><input type="text" name="title" placeholder="제목을 입력하세요."/></td>
+                            <td>Title</td>
+                            <td><input type="text" name="title" placeholder="Enter the title"/></td>
                         </tr>
                         <tr>
-                            <td>내용</td>
+                            <td>Content</td>
                             <td>
                                 <textarea name="content"></textarea>                                
                             </td>
                         </tr>
                         <tr>
-                            <td>첨부</td>
+                            <td>Attach</td>
                             <td><input type="file" name="file"/></td>
                         </tr>
                     </table>
                     <div>
-                        <a href="./list.html" class="btnCancel">취소</a>
-                        <input type="submit"  class="btnWrite" value="수정완료">
+                        <a href="/Jboard2/list.do" class="btnCancel">Cancel</a>
+                        <input type="submit"  class="btnWrite" value="Modify">
                     </div>
                 </form>
             </article>

@@ -68,7 +68,7 @@
                     <tr>
                         <td>Nickname</td>
                         <td>
-                            <p>You can use Korean, English, and numbers only.</p>
+                            <p>You can use English, and numbers only.</p>
                             <input type="text" name="nick" placeholder="Enter your nickname"/>
                             <span class="resultNick"></span>                            
                         </td>
