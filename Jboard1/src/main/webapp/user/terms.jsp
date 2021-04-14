@@ -1,6 +1,6 @@
-<%@page import="kr.co.jboard1.dao.UserDao"%>
 <%@page import="kr.co.jboard1.bean.TermsBean"%>
-<%@page import="kr.co.jboard1.config.DBConfig"%>
+<%@page import="kr.co.jboard1.dao.UserDao"%>
+
 <%@page import="com.google.gson.JsonObject"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.Statement"%>

@@ -1,9 +1,5 @@
-<%@page import="kr.co.jboard1.bean.UserBean"%>
 <%@page import="kr.co.jboard1.dao.UserDao"%>
-<%@page import="kr.co.jboard1.config.DBConfig"%>
-<%@page import="java.sql.Statement"%>
-<%@page import="java.sql.Connection"%>
-<%@page import="java.sql.DriverManager"%>
+<%@page import="kr.co.jboard1.bean.UserBean"%>
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
 <%
 	//encoding

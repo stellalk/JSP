@@ -1,13 +1,14 @@
+<%@page import="kr.co.jboard1.bean.ArticleBean"%>
+<%@page import="kr.co.jboard1.bean.UserBean"%>
 <%@page import="kr.co.jboard1.dao.ArticleDao"%>
 <%@page import="java.sql.Statement"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="kr.co.jboard1.bean.ArticleBean"%>
+
 <%@page import="java.util.List"%>
 <%@page import="java.sql.ResultSet"%>
 <%@page import="java.sql.PreparedStatement"%>
 <%@page import="java.sql.Connection"%>
-<%@page import="kr.co.jboard1.config.DBConfig"%>
-<%@page import="kr.co.jboard1.bean.UserBean"%>
+
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
 <%
 	// session user info

@@ -1,6 +1,6 @@
+<%@page import="kr.co.jboard1.bean.ArticleBean"%>
 <%@page import="kr.co.jboard1.bean.UserBean"%>
 <%@page import="java.util.List"%>
-<%@page import="kr.co.jboard1.bean.ArticleBean"%>
 <%@page import="kr.co.jboard1.dao.ArticleDao"%>
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
 <%
