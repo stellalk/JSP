@@ -10,7 +10,7 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
-  <!-- 모델2 보안설정 -->
+  <!-- model2 security setting -->
   <security-constraint>
   	<display-name>Prohibit Model1</display-name>
   	<web-resource-collection>
@@ -29,7 +29,7 @@
   	</web-resource-collection>
   </security-constraint>
   
-  <!-- 컨트롤러 등록 -->
+  <!-- controller -->
   <servlet>
   	<servlet-name>MainController</servlet-name>
   	<servlet-class>kr.co.jboard2.controller.MainController</servlet-class>

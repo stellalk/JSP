@@ -1,3 +1,5 @@
 eclipse.preferences.version=1
 encoding//src/main/java/kr/co/jboard2/controller/MainController.java=UTF-8
+encoding//src/main/java/kr/co/jboard2/service/DownloadService.java=UTF-8
+encoding//src/main/java/kr/co/jboard2/service/WriteService.java=UTF-8
 encoding//src/main/webapp/css/style.css=UTF-8
