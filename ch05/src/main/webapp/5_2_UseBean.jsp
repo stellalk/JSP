@@ -13,7 +13,7 @@
 			- general java object/component 
 			- class with form entering field as member
 			- class with database table's column as member
-			- use as vo object on JSP Model12
+			- use as vo object on JSP Model 1,2
 	-->
 </head>
 <body>
