@@ -6,7 +6,7 @@
 	<title>9_3_EL_Operator</title>
 </head>
 <body>
-	<h3>3.표현언어 연산자</h3>
+	<h3>3. Expression Language Operator</h3>
 	<%
 		String str1 = null;
 		String str2 = "";
@@ -15,7 +15,7 @@
 		int num1 = 1;
 		int num2 = 2;
 		
-		// 표현언어에서 각 변수를 참조하기 위해 request 내장객체에 저장 
+		// Save in request object 
 		request.setAttribute("str1", str1);
 		request.setAttribute("str2", str2);
 		request.setAttribute("str3", str3);

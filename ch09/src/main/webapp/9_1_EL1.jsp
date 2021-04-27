@@ -6,19 +6,19 @@
 	<title>9_1_EL1</title>
 </head>
 <body>
-	<h3>1.표현언어(Expression Language)</h3>
+	<h3>1. Expression Language</h3>
 	<%
-		String name = "홍길동";
+		String name = "Stella Kim";
 		int num1 = 1;
 		int num2 = 2;
 		
-		// JSP 내장객체 저장
+		// Save in JSP Implicit Objects
 		pageContext.setAttribute("name", name);
 		request.setAttribute("num1", num1);
 		session.setAttribute("num2", num2);
 	%>
 	
-	<h4>표현식</h4>
+	<h4>Expression</h4>
 	<p>
 		name : <%= name %><br />
 		num1 : <%= num1 %><br />
@@ -26,7 +26,7 @@
 		num1 + num2 = <%= num1 + num2 %>
 	</p>
 	
-	<h4>표현언어</h4>
+	<h4>Expression Language</h4>
 	<p>
 		name : ${name}<br />
 		num1 : ${num1}<br />

@@ -6,12 +6,12 @@
 	<title>9_2_EL2</title>
 </head>
 <body>
-	<h3>2.표현언어 내장객체</h3>
+	<h3>2. Expression Language Implicit Objects</h3>
 	<%
-		pageContext.setAttribute("name", "김유신");
-		request.setAttribute("name", "김춘추");
-		session.setAttribute("name", "장보고");
-		application.setAttribute("name", "강감찬");	
+		pageContext.setAttribute("name", "Tory");
+		request.setAttribute("name", "Tim");
+		session.setAttribute("name", "Thom");
+		application.setAttribute("name", "Terry");	
 	%>
 	<p>
 		pageContext name : ${pageScope.name}<br />
