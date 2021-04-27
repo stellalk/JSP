@@ -37,6 +37,8 @@
 ## Chapter 10
 - Controller
 - Service
+## Member
+- Member CRUD Program
 ## Jboard1
 - JSP Model 1 Architecture
 ## Jboard2
