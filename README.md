@@ -1,7 +1,7 @@
 # JSP
 
 ## Chapter 01
-> Print Hello JSP
+- Print Hello JSP
 ## Chapter 02
 > Scriptlet
 > Condition
