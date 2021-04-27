@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>hello</title>
+	<title>Hello</title>
 </head>
 <body>
 	<h1>Hello JSP!</h1>
