@@ -17,7 +17,7 @@
 	-->
 </head>
 <body>
-	<h3>2.UseBean tag</h3>
+	<h3>2. UseBean tag</h3>
 	
 	<%
 		//String name = request.getParameter("name");
@@ -35,11 +35,11 @@
 	</jsp:useBean>
 	
 	<p>
-		name: <%= member.getName() %><br/>
-		gender: <%= member.getGender() %><br/>
-		hobby: 
+		name : <%= member.getName() %><br/>
+		gender : <%= member.getGender() %><br/>
+		hobby : 
 		<% 
-			for(String hobby: member.getHobby()){
+			for (String hobby : member.getHobby()) {
 				out.print(hobby+", ");
 			}
 		%><br/>

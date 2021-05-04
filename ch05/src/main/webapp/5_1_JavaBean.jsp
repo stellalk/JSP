@@ -11,7 +11,7 @@
 	-->
 </head>
 <body>
-	<h3>1.JSP JavaBean</h3>
+	<h3>1. JSP JavaBean</h3>
 	
 	<h3>sign up</h3>
 	<form action="./5_2_UseBean.jsp" method="get">
@@ -30,11 +30,11 @@
 			<tr>
 				<td>Hobby</td>
 				<td>
-					<label><input type="checkbox" name="hobby" value="music"/>Listening to music</label>
-					<label><input type="checkbox" name="hobby" value="hiking"/>Hiking</label>
-					<label><input type="checkbox" name="hobby" value="reading"/>Reading</label>
-					<label><input type="checkbox" name="hobby" value="cooking"/>Cooking</label>
-					<label><input type="checkbox" name="hobby" value="movie"/>Watching movies</label>
+					<label><input type="checkbox" name="hobby" value="music" />Listening to music</label>
+					<label><input type="checkbox" name="hobby" value="hiking" />Hiking</label>
+					<label><input type="checkbox" name="hobby" value="reading" />Reading</label>
+					<label><input type="checkbox" name="hobby" value="cooking" />Cooking</label>
+					<label><input type="checkbox" name="hobby" value="movie" />Watching movies</label>
 				</td>
 			</tr>
 			<tr>
