@@ -1,16 +1,13 @@
 # JSP
 
 ## Chapter 01
-- Print Hello JSP
-- http://18.220.30.100:8080/ch01/hello.jsp
-
-
+- Print Hello JSP http://18.220.30.100:8080/ch01/hello.jsp
 ## Chapter 02
-- Scriptlet
-- Condition
-- Loop
-- Class
-- Include
+- Scriptlet http://18.220.30.100:8080/ch02/2_1_Scriptlet.jsp
+- Condition http://18.220.30.100:8080/ch02/2_2_Condition.jsp
+- Loop http://18.220.30.100:8080/ch02/2_3_Loop.jsp
+- Class http://18.220.30.100:8080/ch02/2_4_Class.jsp
+- Include http://18.220.30.100:8080/ch02/2_5_Include.jsp
 ## Chapter 03
 - Request
 - Response
