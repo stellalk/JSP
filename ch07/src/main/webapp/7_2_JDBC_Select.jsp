@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
 <%
 	//database 
-	String host = "jdbc:mysql://192.168.10.114:3306/kye";
+	String host = "jdbc:mysql://18.220.30.100:3306/kye";
 	String user = "kye";
 	String pass = "1234";
 	
