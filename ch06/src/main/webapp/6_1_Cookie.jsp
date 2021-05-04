@@ -17,7 +17,7 @@
 	-->
 </head>
 <body>
-	<h3>1.Cookie</h3>
+	<h3>1. Cookie</h3>
 	<%
 		//make cookies
 		Cookie c1 = new Cookie("name","abcabcabc");
