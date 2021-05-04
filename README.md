@@ -17,7 +17,7 @@
 - Forward Tag http://18.220.30.100:8080/ch04/4_2_ForwardTag.jsp
 ## Chapter 05
 - JavaBean http://18.220.30.100:8080/ch05/5_1_JavaBean.jsp
-- UseBean http://18.220.30.100:8080/ch05/5_2_UseBean.jsp
+- UseBean http://18.220.30.100:8080/ch05/5_2_UseBean.jsp?name=Stella+Kim&gender=2&hobby=music&addr=seoul
 ## Chapter 06
 - Cookie http://18.220.30.100:8080/ch06/6_1_Cookie.jsp
 - Check Client Coockie http://18.220.30.100:8080/ch06/6_2_CookieReceive.jsp
