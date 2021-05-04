@@ -97,7 +97,7 @@
                 	<input type="hidden" name="seq" value="<%= ab.getSeq() %>" /> 
                     <textarea name="comment" required="required"></textarea>
                     <div>
-                        <a href="#" class="btnCancel">Cancel</a>
+                        <a href="/Jboard1/list.jsp" class="btnCancel">Cancel</a>
                         <input type="submit" class="btnWrite" value="Submit"/>
                     </div>
                 </form>

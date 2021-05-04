@@ -5,9 +5,9 @@
 
 	if(user != null){
 		//logged in
-		pageContext.forward("./list.jsp");
+		pageContext.forward("/Jboard1/list.jsp");
 	}else{
 		//logged out
-		pageContext.forward("./user/login.jsp");
+		pageContext.forward("/Jboard1/user/login.jsp");
 	}
 %>
