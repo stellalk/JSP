@@ -13,16 +13,16 @@
 - Response http://18.220.30.100:8080/ch03/3_2_Response.jsp
 - Print out http://18.220.30.100:8080/ch03/3_3_Out.jsp
 ## Chapter 04
-- Include Tag
-- Forward Tag
+- Include Tag http://18.220.30.100:8080/ch04/4_1_IncludeTag.jsp
+- Forward Tag http://18.220.30.100:8080/ch04/4_2_ForwardTag.jsp
 ## Chapter 05
-- JavaBean
-- UseBean
+- JavaBean http://18.220.30.100:8080/ch05/5_1_JavaBean.jsp
+- UseBean http://18.220.30.100:8080/ch05/5_2_UseBean.jsp
 ## Chapter 06
-- Cookie
-- Check Client Coockie
-- Session
-- Confirm Session Data
+- Cookie http://18.220.30.100:8080/ch06/6_1_Cookie.jsp
+- Check Client Coockie http://18.220.30.100:8080/ch06/6_2_CookieReceive.jsp
+- Session http://18.220.30.100:8080/ch06/6_3_Session.jsp
+- Confirm Session Data http://18.220.30.100:8080/ch06/6_4_SessionConfirm.jsp
 ## Chapter 07
 - JDBC Insert
 - JDBC Select
