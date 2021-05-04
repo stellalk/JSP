@@ -24,13 +24,13 @@ public class MainContoller extends HttpServlet {
 	
 	@Override
 	public void init(ServletConfig config) throws ServletException {
-		// 컨트롤러가 최초 실행될때 실행되는 초기화 메서드  
+		// Controller init method  
 		
-		// 프로퍼티 파일(액션주소 맵핑 파일) 경로 구하기
+		// Find the path for property file
 		ServletContext ctx = config.getServletContext();
 		String path = ctx.getRealPath("/WEB-INF")+"/urlMapping.properties";
 		
-		// 프로퍼티 파일 입력 스트림 연결
+		// Connect input stream of property file
 		Properties prop = new Properties();
 		
 		try {
@@ -43,7 +43,7 @@ public class MainContoller extends HttpServlet {
 			e.printStackTrace();
 		}
 		
-		// 프로퍼티 객체 생성 및 Service 객체 생성후 보관
+		// Store property object and service
 		Iterator iter = prop.keySet().iterator();
 		
 		while(iter.hasNext()) {
@@ -75,18 +75,18 @@ public class MainContoller extends HttpServlet {
 	
 	public void requestProc(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		
-		// 요청 주소에서 service 객체 key 구하기
+		// obtain key of service from requested uri
 		String path = req.getContextPath();
 		String uri  = req.getRequestURI();
 		String key = uri.substring(path.length());
 		
-		// service 객체 map에서 꺼내기
+		// Get service from map
 		CommonService instance = (CommonService) instances.get(key);		
 		
-		// service 객체 실행후 view 리턴 받기
+		// Return to view after service
 		String view = instance.requestProc(req, resp);
 	
-		// View 포워드
+		// Forward View
 		RequestDispatcher dispatcher = req.getRequestDispatcher(view);
 		dispatcher.forward(req, resp);
 	}
