@@ -1,6 +1,7 @@
 # JSP
 
 ## Chapter 01
+- Developer Setting
 - Print Hello JSP http://18.220.30.100:8080/ch01/hello.jsp
 ## Chapter 02
 - Scriptlet http://18.220.30.100:8080/ch02/2_1_Scriptlet.jsp
