@@ -25,21 +25,26 @@
 - Session http://18.220.30.100:8080/ch06/6_3_Session.jsp
 - Confirm Session Data http://18.220.30.100:8080/ch06/6_4_SessionConfirm.jsp
 ## Chapter 07
-- JDBC Insert
-- JDBC Select
+- JDBC Insert http://18.220.30.100:8080/ch07/7_1_JDBC_Insert.jsp
+- JDBC Select http://18.220.30.100:8080/ch07/7_2_JDBC_Select.jsp
 ## Chapter 08
-- Json Data
-- XML Data
+- Json Data http://18.220.30.100:8080/ch08/8_1_JsonData.jsp
+- http://18.220.30.100:8080/ch08/8_2_JsonData.jsp
+- Create XML data and print out http://18.220.30.100:8080/ch08/8_3_XmlData.jsp
+- Make XML data by using JDOM library and print out http://18.220.30.100:8080/ch08/8_4_XmlData.jsp
 ## Chapter 09
-- Expression Language (EL)
-- EL Implicit Objects
-- EL Operator
-- JSTL (Java Standards Tag Library)
+- Expression Language (EL) http://18.220.30.100:8080/ch09/9_1_EL1.jsp
+- EL Implicit Objects http://18.220.30.100:8080/ch09/9_2_EL2.jsp
+- EL Operator http://18.220.30.100:8080/ch09/9_3_EL_Operator.jsp
+- JSTL (Java Standards Tag Library) http://18.220.30.100:8080/ch09/9_4_JSTL.jsp
 ## Chapter 10
-- Controller
-- Service
+- Controller and Service
+- Greeting http://18.220.30.100:8080/ch10/greeting.jsp
+- Hello http://18.220.30.100:8080/ch10/hello.jsp
+- Welcome http://18.220.30.100:8080/ch10/welcome.jsp
 ## Member
 - Member CRUD Program
+- 
 ## Jboard1
 - JSP Model 1 Architecture
 ## Jboard2
